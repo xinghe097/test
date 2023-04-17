@@ -38,24 +38,6 @@
       <i class="el-icon-setting"></i>
       <span @click="inPerson" slot="title" index="4">个人中心</span>
     </el-menu-item>
-
-    <!-- <i :class="`el-icon-${item.icon}`"></i> -->
-    <!-- <span slot="title">{{ item.label }}</span> -->
-    <!-- </el-menu-item> -->
-    <!-- <el-submenu v-for="item in hasChildren" :key="item.name" :index="item.label" :v-bind:index="item.lablel"> -->
-    <!-- 这是商品管理的导航栏 -->
-    <!-- <template slot="title"> -->
-    <!-- <i :class="`el-icon-${item.icon}`"></i> -->
-    <!-- <span slot="title">{{ item.label }}</span> -->
-    <!-- </template> -->
-    <!-- <el-menu-item-group v-for="subItem in item.children" :key="subItem.path"> -->
-    <!-- <el-menu-item @click="clickMenu(subItem)" :index="subItem.path">{{  subItem.label}}</el-menu-item> -->
-    <!-- </el-menu-item-group> -->
-    <!-- </el-submenu> -->
-    <!-- <el-menu-item index="4">
-      <i class="el-icon-setting"></i>
-      <span slot="title">设置</span>
-    </el-menu-item> -->
   </el-menu>
 </template>
 <style lang="less" scoped>

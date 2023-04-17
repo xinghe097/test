@@ -79,7 +79,6 @@ export default {
       //rules验证规则对象，数组中的每个对象都是一个验证，true代表必填，不填会显示message
       //一些其他规则：min:     max:   message："长度在min到max的字符之间"
       rules: {
-        
         username: [{ validator: nameRule, trigger: "blur" }],
         password: [{ validator: passRule, trigger: "blur" }],
         checkPassword: [{ validator: validatePass2, trigger: "blur" }],
@@ -106,6 +105,7 @@ export default {
                 });
               } else {
                 alert("注册失败");
+                console.log("123");
               }
             });
         }
